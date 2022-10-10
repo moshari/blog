@@ -45,3 +45,17 @@
 .header ul li a:hover {
     color: var(--main-text-hover-color);
 }
+
+
+/* smartphone */
+@media (min-width: 320px) and (max-width: 480px) {
+    .header {
+        height: 54px;
+    }
+    .header ul {
+        width: 100%;
+    }
+    .header ul li a {
+        padding: 19px 10px;
+    }
+}

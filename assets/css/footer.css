@@ -20,7 +20,7 @@
 
 .social_icon ul li {
     padding-right: 1rem;
-    
+
 }
 
 .social_icon ul li:hover {
@@ -58,4 +58,11 @@
 .copyright {
     text-align: center;
     color: var(--main-text-color);
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .social_icon ul li {
+        padding-right: 0.3rem;
+    }
 }
